@@ -27,6 +27,12 @@ public class AreaFiguras {
 					base=solicitarValor("Indica la base o altura: ");
 					System.out.println("\nEl area del cuadrado es " + (base*base));
 					break;
+                                case 2:
+					// area de un rectangulo
+					base=solicitarValor("Indica la base: ");
+					altura=solicitarValor("Indica la altura: ");
+					System.out.println("\nEl area del rectangulo es " + (base*altura));
+					break;
     
 }
                 }
